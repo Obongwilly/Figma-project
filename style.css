@@ -78,6 +78,7 @@ h1 {
   color: white;
   font-size: 3rem;
   text-transform: uppercase;
+  margin-bottom: 40px;
 }
 .first-box {
   width: 200px;
@@ -93,13 +94,16 @@ h1 {
   font-family: "Lexend Zetta", sans-serif;
 }
 .articles {
-  display: flex;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  width: 50%;
+  margin: auto;
+  row-gap: 62px;
 }
 article {
   height: 18rem;
   background: linear-gradient(to bottom, #3f5f52, #2c4a3e);
-  width: 16rem;
   border-radius: 20px;
 }
 .box-img {
